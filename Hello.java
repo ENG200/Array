@@ -1,47 +1,24 @@
-public class Hello{
-	public static void main(String [] args) {
-		for (int i=1; i<=7; i++) {
-			for(int j = 7; j>=1; j--) {
-				if(i==j) {
-					int n = i;
-					while(n>=1) {
-					System.out.print(n);
-					n--;
-				}
-					n=2;
-					while (n<=i) {
-						System.out.print(n);
-						n++;
-					}
-											
-				}
-				else
-					System.out.print(" ");
-				}
-			System.out.print("\n");
-		}
+public class Hello {
+    public static void main(String[] args) {
+        // Create an object of Hello (constructor initializes A[10])
+        Array h = new Array();
 
+        // Provide an array
+        int[] values = {1, 2, 3, 2, 2, 5, 6, 2, 8, 9};
 
-	for (int i=6; i>=1; i--) {
-		for(int j = 7; j>=1; j--) {
-			if(i==j) {
-				int n = i;
-				while(n>=1) {
-				System.out.print(n);
-				n--;
-			}
-				n=2;
-				while (n<=i) {
-					System.out.print(n);
-					n++;
-				}
-										
-			}
-			else
-				System.out.print(" ");
-			}
-		System.out.print("\n");
-	}
+        // Set the array in Hello
+        h.setArrey(values);
 
-	}
+        // Count how many times '2' appears
+        int result = h.occur(2);
+
+        // Print the result
+        System.out.println("Number of times 2 occurs: " + result);
+    }
 }
+
+
+
+
+
+
