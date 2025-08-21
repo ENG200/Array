@@ -9,7 +9,7 @@ public class Array {
 	 }
 	 public int occur (int key) {
 		 int count = 0;
-		 for (int i=0; i<A.length - 1; i++) 
+		 for (int i=0; i<A.length; i++) 
 			 if (A[i] == key) count++;
 		 return count;
 		 }
