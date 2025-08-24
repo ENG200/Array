@@ -14,8 +14,11 @@ public class Hello {
 
         // Print the result
         System.out.println("Number of times 2 occurs: " + result);
+         // Print the result
+        System.out.println("Number of times 2 occurs: " + result);
     }
 }
+
 
 
 
